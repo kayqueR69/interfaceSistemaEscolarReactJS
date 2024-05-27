@@ -1,0 +1,14 @@
+.boxMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .2em;
+}
+
+.cadastro {
+    color: green;
+}
+
+.error {
+    color: red;
+}

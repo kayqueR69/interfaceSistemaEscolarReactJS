@@ -1,0 +1,14 @@
+.select h3 {
+    margin-block: 1em;
+}
+
+.select select {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top: none;
+    border-inline: none;
+    outline: unset;
+}

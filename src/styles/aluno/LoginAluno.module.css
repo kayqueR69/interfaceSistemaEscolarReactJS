@@ -1,0 +1,12 @@
+.container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}

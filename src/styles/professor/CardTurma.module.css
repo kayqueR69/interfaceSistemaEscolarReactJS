@@ -1,0 +1,22 @@
+.card {
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgb(191, 255, 191);
+}
+
+.card p {
+    margin-bottom: 1em;
+}
+.card a {
+    text-decoration: none;
+    padding: .2em 1em;
+    background-color: rgb(0, 159, 0);
+    color: white;
+    font-size: small;
+    border: none;
+}
+
+.card a:hover {
+    background-color: green;
+}

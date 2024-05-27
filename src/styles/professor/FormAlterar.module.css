@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.form div {
+    width: 100%;
+}
+
+.form div h3 {
+    margin-block: 1em;
+}
+
+.form div select {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top: none;
+    border-inline: none;
+    outline: unset;
+}

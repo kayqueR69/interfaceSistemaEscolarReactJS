@@ -1,0 +1,11 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.box h1 {
+    margin-block: 1em;
+}

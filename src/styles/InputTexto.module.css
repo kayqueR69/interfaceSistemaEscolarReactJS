@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box input {
+    width: 400px;
+    height: 60px;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    border-top: none;
+    border-inline: none;
+    border-radius: 5px;
+    outline: unset;
+    margin-block: .5em;
+}
+
+
+.box label {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-block: .5em;
+}

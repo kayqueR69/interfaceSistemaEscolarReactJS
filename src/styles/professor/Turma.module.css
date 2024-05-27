@@ -1,0 +1,16 @@
+.box {
+    width: 90%;
+    margin: auto;
+}
+
+.box h2 {
+    margin-top: 1em;
+}
+
+.box section {
+    display: flex;
+}
+
+.box p {
+    margin-bottom: 1em;
+}

@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.box h2 {
+    margin: 1em;
+}
+
+.box table tr td, .box table tr th{
+    padding: 1em;
+    text-align: center;
+}

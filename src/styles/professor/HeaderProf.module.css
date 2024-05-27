@@ -1,0 +1,23 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em;
+}
+
+.head h1 {
+    margin-bottom: .2em;
+}
+
+.head div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head div span {
+    display: flex;
+    gap: 2em;
+}
+
+

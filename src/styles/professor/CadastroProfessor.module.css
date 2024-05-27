@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    margin-block: 1em;
+}
+
+.container p {
+    margin-block: .5em;
+}
