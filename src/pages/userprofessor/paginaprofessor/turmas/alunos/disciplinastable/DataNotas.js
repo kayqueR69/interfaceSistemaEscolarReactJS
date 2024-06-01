@@ -25,7 +25,7 @@ export function DataNotas({idAluno, idDisciplina}){
             {nota && <>
                 <td>{nota.nota1}</td>
                 <td>{nota.nota2}</td>
-                <td>{(nota.nota1 + nota.nota2) / 2}</td>
+                <td>{nota.media}</td>
                 <td>
                     <LinkButton source={`/atribuirnota/${idAluno}/${idDisciplina}`} text='Atribuir nota' />
                 </td>

@@ -35,7 +35,7 @@ export function TabelaInfos({materias}) {
                                 <td>{disciplina.descricao}</td>
                                 <td>{disciplina.notas.nota1}</td>
                                 <td>{disciplina.notas.nota2}</td>
-                                <td>{(disciplina.notas.nota1 + disciplina.notas.nota2) / 2}</td>
+                                <td>{disciplina.notas.media}</td>
                             </tr>
                         ))
                     }
